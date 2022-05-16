@@ -24,6 +24,7 @@ void calcPointers(Node* root, Node **first, Node **mid, Node **last,Node **prev)
 {
     if(root==NULL)
         return;
+    //inorder traversal
     calcPointers(root->left,first,mid,last,prev);
     if(*prev && root->data <(*prev)->data)
     {
