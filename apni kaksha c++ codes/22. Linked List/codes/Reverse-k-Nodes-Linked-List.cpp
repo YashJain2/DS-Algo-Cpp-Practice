@@ -70,8 +70,8 @@ int main()
     insertAtTail(head,6);
     display(head);
     // node* newhead = reverse(head);
-    node* newhead = reversek(head,2);
-    newhead = reversek(newhead,2);
+    node* newhead = reversek(head,4);
+    // newhead = reversek(newhead,2);
     display(newhead);
 
     return 0;
